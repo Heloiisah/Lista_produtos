@@ -1,0 +1,72 @@
+#div-form{
+    width: 600px;
+    min-width: 580px;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: var(--div-fundo);
+
+}
+
+h3{
+    text-align: center;
+    padding: 20px 0px;
+    letter-spacing: 5px;
+}
+#formulario{
+    background-color: var(--cor1);
+    padding: 25px;
+    border-radius: 8px;
+
+}
+
+
+    label{
+        display: block;
+        font-size: 1.2em;
+        margin: 10px 0px;
+        letter-spacing: .5px;
+    }
+    
+    input{
+        height: 30px;
+        font-size: 0.9em;
+        padding: 10px;
+    }
+    #div-btns{
+        margin: 20px 0px;
+        padding: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    button{
+        width: 150px;
+        height: 30px;
+        margin-left: 40px;
+        color: var(--div-fundo);
+        border: none;
+        cursor: pointer;
+    }
+
+    #btnAdd{
+        background-color: var(--botao2);
+    }
+
+    #btn-limpar{
+        background-color: var(--botao1);
+    }
+
+    #div-lista{
+        width: 100%;
+        min-height: 20px;
+        margin: 20px 0px;
+        padding: 10px;
+        background-color: var(--cor1);
+
+    }
+
+    .div-item{
+        width: 100%;
+        height: ;
+    }
