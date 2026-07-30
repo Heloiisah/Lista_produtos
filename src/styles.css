@@ -8,13 +8,12 @@
 }
 
 :root{
-    --div-fundo: #bd76f8;
-    --branca:#b889ee;
-    --botao1:#2ee237;
-    --botao2:#f11616;
-    --cor1:#ac8dcf;
-    --cor2:#a874e4;
-
+    --div-fundo: #D9C5F2;
+--branca: #ffffff;
+--botao1: #5BC8AF;
+--botao2: #E57373;
+--cor1: #9A6ACC;
+--cor2: #43206E;
 }
 
 body{
