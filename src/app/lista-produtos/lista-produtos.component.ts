@@ -1,11 +1,12 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
+import { NgClass } from '@angular/common';
 import { Item } from './item';
 
 @Component({
   selector: 'app-lista-produtos',
   standalone: true,
-  imports: [FormsModule],
+  imports: [FormsModule, NgClass],
   templateUrl: './lista-produtos.component.html',
   styleUrl: './lista-produtos.component.css'
 })
@@ -19,18 +20,19 @@ export class ListaProdutosComponent {
   addItem() {
 
     let item = new Item();
-  
+
     item.idProduto = this.listaItens.length + 1;
     item.descricaoProduto = this.descricao_produto;
     item.valorUnitario = this.valor_unitario;
-  
-    item.statusSelecionado = true; // <-- ADICIONE ESTA LINHA
-  
+
+    item.statusSelecionado = true;
+
     this.listaItens.push(item);
-  
+
     this.descricao_produto = '';
     this.valor_unitario = 0.0;
   }
+
   limparTudo() {
     this.descricao_produto = '';
     this.valor_unitario = 0.0;
